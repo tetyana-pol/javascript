@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+</head>
+<body>
+<div id="main">
+</div>
+<script type="text/javascript" src="list.js"></script>
+<script type="text/javascript">
+var r1=new Square(r1, 10, 20, 10,10,"red");
+r1.show();
+</script>
+<script type="text/javascript">
+function keyHandler(e) {
+	console.log(e);
+	if (e.keyCode=40) {
+			r1.move(0,30);
+		
+	 
+ }
+document.addEventListener("keypress",keyHandler,false) 
+</script>
+</body>
+</html>
